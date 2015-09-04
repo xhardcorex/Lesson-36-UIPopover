@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C2043" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ujf-Us-siG">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="otg-I6-NvS">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="85G-mB-cdS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="Ujf-Us-siG" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="icF-zs-Oh5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="mVG-Gy-59u" kind="relationship" relationship="rootViewController" id="13w-Vu-ALG"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-1250" y="514"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TXe-jT-MYa">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RP9-ju-vlA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="mVG-Gy-59u" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7P0-fE-hb6"/>
+                        <viewControllerLayoutGuide type="bottom" id="ofC-HH-MZp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="X8c-vu-sBm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XnD-28-U2L">
+                                <rect key="frame" x="110" y="238" width="68" height="30"/>
+                                <state key="normal" title="Press me">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Ek6-yM-mjM">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="PXw-5X-9e6"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-733.5" y="513.5"/>
+        </scene>
+        <!--DetailsVC-->
+        <scene sceneID="3kN-vN-zRX">
+            <objects>
+                <viewController storyboardIdentifier="NSDetailsVC" id="Hsi-Cr-mOV" customClass="NSDetailsVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="feA-8J-114"/>
+                        <viewControllerLayoutGuide type="bottom" id="rak-jZ-gZF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="S6b-de-fQv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Details" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U6P-05-gqJ">
+                                <rect key="frame" x="161" y="270" width="67" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HAy-Wi-u4p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-254.5" y="513.5"/>
+        </scene>
+    </scenes>
+</document>

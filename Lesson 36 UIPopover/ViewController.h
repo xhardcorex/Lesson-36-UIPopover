@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)actionAdd:(UIBarButtonItem*)sender;
+- (IBAction)actionPressMe:(UIButton *)sender;
 
 @end
 

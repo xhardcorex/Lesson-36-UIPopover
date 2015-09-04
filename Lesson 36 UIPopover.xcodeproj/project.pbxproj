@@ -14,6 +14,8 @@
 		2447CAA71B98D5D00067CB67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2447CAA61B98D5D00067CB67 /* Images.xcassets */; };
 		2447CAAA1B98D5D00067CB67 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2447CAA81B98D5D00067CB67 /* LaunchScreen.xib */; };
 		2447CAB61B98D5D00067CB67 /* Lesson_36_UIPopoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2447CAB51B98D5D00067CB67 /* Lesson_36_UIPopoverTests.m */; };
+		2447CAC01B98D76B0067CB67 /* Iphone_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2447CABF1B98D76B0067CB67 /* Iphone_Storyboard.storyboard */; };
+		2447CAC31B98D9090067CB67 /* NSDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2447CAC21B98D9090067CB67 /* NSDetailsVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		2447CAAF1B98D5D00067CB67 /* Lesson 36 UIPopoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 36 UIPopoverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2447CAB41B98D5D00067CB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2447CAB51B98D5D00067CB67 /* Lesson_36_UIPopoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson_36_UIPopoverTests.m; sourceTree = "<group>"; };
+		2447CABF1B98D76B0067CB67 /* Iphone_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Iphone_Storyboard.storyboard; path = ../Iphone_Storyboard.storyboard; sourceTree = "<group>"; };
+		2447CAC11B98D9090067CB67 /* NSDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDetailsVC.h; sourceTree = "<group>"; };
+		2447CAC21B98D9090067CB67 /* NSDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDetailsVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,8 @@
 		2447CA8D1B98D5CF0067CB67 = {
 			isa = PBXGroup;
 			children = (
+				2447CAC11B98D9090067CB67 /* NSDetailsVC.h */,
+				2447CAC21B98D9090067CB67 /* NSDetailsVC.m */,
 				2447CA981B98D5CF0067CB67 /* Lesson 36 UIPopover */,
 				2447CAB21B98D5D00067CB67 /* Lesson 36 UIPopoverTests */,
 				2447CA971B98D5CF0067CB67 /* Products */,
@@ -85,6 +92,7 @@
 				2447CA9E1B98D5D00067CB67 /* AppDelegate.m */,
 				2447CAA01B98D5D00067CB67 /* ViewController.h */,
 				2447CAA11B98D5D00067CB67 /* ViewController.m */,
+				2447CABF1B98D76B0067CB67 /* Iphone_Storyboard.storyboard */,
 				2447CAA31B98D5D00067CB67 /* Main.storyboard */,
 				2447CAA61B98D5D00067CB67 /* Images.xcassets */,
 				2447CAA81B98D5D00067CB67 /* LaunchScreen.xib */,
@@ -201,6 +209,7 @@
 			files = (
 				2447CAA51B98D5D00067CB67 /* Main.storyboard in Resources */,
 				2447CAAA1B98D5D00067CB67 /* LaunchScreen.xib in Resources */,
+				2447CAC01B98D76B0067CB67 /* Iphone_Storyboard.storyboard in Resources */,
 				2447CAA71B98D5D00067CB67 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2447CAC31B98D9090067CB67 /* NSDetailsVC.m in Sources */,
 				2447CAA21B98D5D00067CB67 /* ViewController.m in Sources */,
 				2447CA9F1B98D5D00067CB67 /* AppDelegate.m in Sources */,
 				2447CA9C1B98D5CF0067CB67 /* main.m in Sources */,
